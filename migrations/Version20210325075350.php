@@ -35,6 +35,6 @@ final class Version20210325075350 extends AbstractMigration
         // this down() migration is auto-generated, please modify it to your needs
         $this->addSql('ALTER TABLE comment DROP FOREIGN KEY FK_9474526C604B8382');
         $this->addSql('DROP TABLE comment');
-        $this->addSql('DROP TABLE conference');
+        $this->addSql('DROP TABLE conference'); 
     }
 }
