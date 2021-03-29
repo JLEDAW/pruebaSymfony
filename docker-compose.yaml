@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    database:
+        image: mysql:5.7
+        environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+        ports: 
+          - "6603:3306"

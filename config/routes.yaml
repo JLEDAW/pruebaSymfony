@@ -1,3 +1,13 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+hello:
+  path: hello/{name}
+  controller: App\Controller\ConferenceController::index
+  methods: GET
+
+admin:
+  path: admin
+  controller: App\Controller\Admin\DashboardController::index
+  methods: GET
